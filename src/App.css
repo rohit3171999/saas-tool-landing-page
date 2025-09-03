@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    color: #333;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar */
+.navbar {
+    background: #fff;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2a6cf4;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.signup-btn {
+    background: #2a6cf4;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.signup-btn:hover {
+    background: #1e50c4;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 60px 40px;
+    background: linear-gradient(120deg, #2a6cf4, #6a8dfd);
+    color: white;
+}
+
+.hero-content {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+}
+
+.hero-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.cta-btn {
+    background: white;
+    color: #2a6cf4;
+    font-weight: bold;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.cta-btn:hover {
+    background: #eee;
+}
+
+.hero-image {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Features */
+.features {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.feature-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.feature-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Pricing */
+.pricing {
+    padding: 60px 40px;
+    background: #f1f5ff;
+    text-align: center;
+}
+
+.pricing-cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.price-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.price-card h4 {
+    margin-bottom: 10px;
+}
+
+.price-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.price-card ul li {
+    margin-bottom: 8px;
+}
+
+/* Contact */
+.contact {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    background: #2a6cf4;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
