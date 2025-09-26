@@ -5,6 +5,7 @@ import TestimonialSection from "./components/TestimonialSection.jsx";
 import CallToActionSection from "./components/CallToActionSection.jsx";
 import Footer from "./components/Footer.jsx";
 
+
 function App(){
     return(
         <>
@@ -14,6 +15,7 @@ function App(){
             <TestimonialSection />
             <CallToActionSection />
             <Footer />
+
         </>
     )
 }
